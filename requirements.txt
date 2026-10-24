@@ -1,0 +1,11 @@
+# scikit-learn is pinned to the version the model was saved with (1.6.1).
+# Also pin xgboost to the version used in your training notebook, e.g. xgboost==2.1.4
+# (check it with: import xgboost; print(xgboost.__version__))
+fastapi
+uvicorn[standard]
+pydantic
+joblib
+pandas
+numpy
+scikit-learn==1.6.1
+xgboost
